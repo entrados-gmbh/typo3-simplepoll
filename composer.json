@@ -1,0 +1,13 @@
+{
+  "name": "pixelink/simplepoll",
+  "description": "An easy to use poll extension for TYPO3",
+  "type": "typo3-cms-extension",
+  "require": {
+    "typo3/cms-core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pixelink\\Simplepoll\\": "Classes/"
+    }
+  }
+}
