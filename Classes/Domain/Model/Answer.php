@@ -30,7 +30,8 @@ namespace Pixelink\Simplepoll\Domain\Model;
 /**
  * All possible answers to the poll.
  */
-class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
+class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
+{
 
 	/**
 	 * The text of the answer
@@ -52,7 +53,8 @@ class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 *
 	 * @return string $title
 	 */
-	public function getTitle() {
+	public function getTitle()
+	{
 		return $this->title;
 	}
 
@@ -62,7 +64,8 @@ class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 * @param string $title
 	 * @return void
 	 */
-	public function setTitle($title) {
+	public function setTitle($title)
+	{
 		$this->title = $title;
 	}
 
@@ -71,7 +74,8 @@ class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 *
 	 * @return integer $counter
 	 */
-	public function getCounter() {
+	public function getCounter()
+	{
 		return $this->counter;
 	}
 
@@ -81,7 +85,8 @@ class Answer extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 * @param integer $counter
 	 * @return void
 	 */
-	public function setCounter($counter) {
+	public function setCounter($counter)
+	{
 		$this->counter = $counter;
 	}
 

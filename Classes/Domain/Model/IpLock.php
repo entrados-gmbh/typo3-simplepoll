@@ -30,7 +30,8 @@ namespace Pixelink\Simplepoll\Domain\Model;
 /**
  * Stores the IPs of the voters with the timestamp of the vote
  */
-class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
+class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject
+{
 
 	/**
 	 * the IP of the voter
@@ -53,7 +54,8 @@ class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
 	 *
 	 * @return string $address
 	 */
-	public function getAddress() {
+	public function getAddress()
+	{
 		return $this->address;
 	}
 
@@ -63,7 +65,8 @@ class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
 	 * @param string $address
 	 * @return void
 	 */
-	public function setAddress($address) {
+	public function setAddress($address)
+	{
 		$this->address = $address;
 	}
 
@@ -72,7 +75,8 @@ class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
 	 *
 	 * @return \DateTime $timestamp
 	 */
-	public function getTimestamp() {
+	public function getTimestamp()
+	{
 		return $this->timestamp;
 	}
 
@@ -82,7 +86,8 @@ class IpLock extends \TYPO3\CMS\Extbase\DomainObject\AbstractValueObject {
 	 * @param \DateTime $timestamp
 	 * @return void
 	 */
-	public function setTimestamp(\DateTime $timestamp = NULL) {
+	public function setTimestamp(\DateTime $timestamp = NULL)
+	{
 		$this->timestamp = $timestamp;
 	}
 

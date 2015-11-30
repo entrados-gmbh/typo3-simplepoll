@@ -30,8 +30,8 @@ namespace Pixelink\Simplepoll\Controller;
 /**
  * IpLockController
  */
-class IpLockController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController {
-
+class IpLockController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
+{
 
 
 }
